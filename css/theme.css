@@ -49,9 +49,9 @@
 .fancy:hover > .outer > .inner > .letter {
   background: linear-gradient(
     to right,
-    var(--bs-teal),
-    var(--bs-cyan),
-    var(--bs-teal)
+    #fceabb, 
+    #f8b500,
+    #fceabb
   );
   background-size: 1000%;
   background-clip: text;
@@ -147,7 +147,6 @@
   width: 100%;
   height: 110%;
   overflow: hidden;
-
 }
 
 .video {
@@ -1689,32 +1688,32 @@ progress {
   border-color: var(--bs-table-border-color); }
 
 .table-responsive {
-  overflow-x: auto;
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch; }
 
 @media (max-width: 575.98px) {
   .table-responsive-sm {
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch; } }
 
 @media (max-width: 767.98px) {
   .table-responsive-md {
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch; } }
 
 @media (max-width: 991.98px) {
   .table-responsive-lg {
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch; } }
 
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch; } }
 
 @media (max-width: 1679.98px) {
   .table-responsive-xxl {
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch; } }
 
 .form-label {
